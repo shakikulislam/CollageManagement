@@ -1,0 +1,55 @@
+﻿@model CollageManagement.Models.Student
+
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<form method="POST">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" name="Name"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>
+                <input type="text" name="Address" />
+            </td>
+        </tr>
+        <tr>
+            <td>Contact No</td>
+            <td>
+                <input type="text" name="ContactNo" />
+            </td>
+        </tr>
+        <tr>
+            <td>Roll No</td>
+            <td>
+                <input type="text" name="RollNo" />
+            </td>
+        </tr>
+        <tr>
+            <td>Reg No</td>
+            <td>
+                <input type="text" name="RegNo" />
+            </td>
+        </tr>
+        <tr>
+            <td>Department Id</td>
+            <td>
+                <input type="text" name="DepartmentId"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Action</td>
+            <td>
+                <input type="submit" value="Save"/>
+            </td>
+        </tr>
+        
+    </table>
+</form>
