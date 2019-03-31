@@ -16,3 +16,21 @@ E:\My Create\VS2013\BITM\WEB\CollageManagement\CollageManagement\bin\System.Web.
 E:\My Create\VS2013\BITM\WEB\CollageManagement\CollageManagement\obj\Debug\CollageManagement.csprojResolveAssemblyReference.cache
 E:\My Create\VS2013\BITM\WEB\CollageManagement\CollageManagement\obj\Debug\CollageManagement.dll
 E:\My Create\VS2013\BITM\WEB\CollageManagement\CollageManagement\obj\Debug\CollageManagement.pdb
+D:\CollageManagement\CollageManagement\bin\CollageManagement.dll.config
+D:\CollageManagement\CollageManagement\bin\CollageManagement.dll
+D:\CollageManagement\CollageManagement\bin\CollageManagement.pdb
+D:\CollageManagement\CollageManagement\bin\System.Web.Helpers.dll
+D:\CollageManagement\CollageManagement\bin\System.Web.Mvc.dll
+D:\CollageManagement\CollageManagement\bin\System.Web.Razor.dll
+D:\CollageManagement\CollageManagement\bin\System.Web.Webpages.Deployment.dll
+D:\CollageManagement\CollageManagement\bin\System.Web.Webpages.dll
+D:\CollageManagement\CollageManagement\bin\System.Web.Webpages.Razor.dll
+D:\CollageManagement\CollageManagement\bin\System.Web.Razor.xml
+D:\CollageManagement\CollageManagement\bin\System.Web.Webpages.xml
+D:\CollageManagement\CollageManagement\bin\System.Web.Webpages.Deployment.xml
+D:\CollageManagement\CollageManagement\bin\System.Web.Webpages.Razor.xml
+D:\CollageManagement\CollageManagement\bin\System.Web.Helpers.xml
+D:\CollageManagement\CollageManagement\bin\System.Web.Mvc.xml
+D:\CollageManagement\CollageManagement\obj\Debug\CollageManagement.csprojResolveAssemblyReference.cache
+D:\CollageManagement\CollageManagement\obj\Debug\CollageManagement.dll
+D:\CollageManagement\CollageManagement\obj\Debug\CollageManagement.pdb

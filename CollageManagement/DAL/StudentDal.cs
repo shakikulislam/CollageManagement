@@ -19,17 +19,28 @@ namespace CollageManagement.DAL
                              ",'" + student.RollNo + "','" + student.RegNo + "','" + student.DepartmentId + "')";
             _sqlConnection.Open();
             _sqlCommand.CommandText = _querry;
-            _sqlConnection.Close();
             var isExecute = _sqlCommand.ExecuteNonQuery();
+            _sqlConnection.Close();
             return isExecute > 0 ? true : false;
         }
 
         public bool GetRollNo(Student student)
         {
             var _querry = "SELECT *FROM Students WHERE RollNo='" + student.RollNo + "'";
+            _sqlConnection.Open();
             _sqlCommand.CommandText = _querry;
             _sqlDataReader = _sqlCommand.ExecuteReader();
-            return _sqlDataReader.Read() ? true : false;
+            //return _sqlDataReader.Read() ? true : false;
+            if (_sqlDataReader.Read())
+            {
+                return true;
+                _sqlConnection.Close();
+            }
+            else
+            {
+                return false;
+                _sqlConnection.Close();
+            }
         }
     }
 }
